@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0054/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0054/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上洞淵辭瘟神咒妙經
+  date: '2015-08-28 23:35:24.951750'
+  source:
+    repository: kanripo
+    path: KR5a0054
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0054_000-HFL.yaml, hash: 'sha256:9c942858b165dbaf1c4ce894736cbe28acfa5de802337538dd1ccc2186767982'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0054_000-HFL.markers.yaml, hash: 'sha256:cb701f883909822802820da54fa552767d46a17e3f78fbd037caf0c473e7dffc'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0054_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 476
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e28607ef768f5446cb87e914116c68025baee51db0bbb4378e38674cfe6ca99b
